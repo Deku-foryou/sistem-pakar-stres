@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# Distribution
+*.egg-info/
+dist/
+build/
+
+# Databases
+*.db
+
+# ML Models (terlalu besar untuk git)
+*.pkl
+*.h5
+*.joblib
+*.pt
+
+# Allow production models to be committed
+!app/ml_model/*.pkl
+
